@@ -6,4 +6,5 @@ storage_accounts = {
 
 vnet_resource = {
   "vnet1" = { rg_name = "rg-vnet-lab-dev-uks-01", vnet_name = "vnet-lab-dev-01", snet_name1 = "snetlab01", snet_name2 = "snetlab011"   }
+  "vnet2" = { rg_name = "rg-vnet-lab-dev-uks-02", vnet_name = "vnet-lab-dev-02", snet_name1 = "snetlab02", snet_name2 = "snetlab022"   }
 }
