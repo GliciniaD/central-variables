@@ -24,5 +24,12 @@ vnet_resource = {
             }
 }
 
-
+vnet_peering = {
+  "vnp1" = {
+              rg_name = "rg-vpn-vnetlab1-vnetlab2-dev-uks-01",
+              peering_name = "vpn-vnetlab1-vnetlab2"
+              vnet_name = "vnet-lab-dev-01"
+              remote_vnet_id = "/subscriptions/899effae-fb98-4b70-a9b9-94321a00bcdf/resourceGroups/rg-vnet-lab-dev-uks-02/providers/Microsoft.Network/virtualNetworks/vnet-lab-dev-02"
+            }
+}
 
